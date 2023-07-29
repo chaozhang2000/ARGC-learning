@@ -117,3 +117,11 @@ FPGA领域的顶会，这篇文章是和在FPGA部署相关的，考虑底层FPG
 	<img src="https://github.com/chaozhang2000/CGRA-learning/blob/main/pic/mem1.png" width="400" />
 </p>
 在Conslusions and Future Work中作者提到他们知识提出这样的框架但是还没有做电路上的实现，所以准备看看有没有相关的实现。
+
+## DSAGEN
+
+这个研究团队看起来更强，发的全是体系结构的顶会，来自加州大学洛杉矶分校  
+[教授Tony Nowatzki主页](http://web.cs.ucla.edu/~tjn/)  
+[PloyArch research group主页](https://polyarch.cs.ucla.edu/)  
+[DSAGEN github](https://github.com/PolyArch/dsa-framework)  
+[MICRO会议上关于DSAGEN的教学视频](https://www.youtube.com/watch?v=ghqr69qfPmY)  
