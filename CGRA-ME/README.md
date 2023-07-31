@@ -22,3 +22,17 @@ CGRA-ME的第一篇论文，提出CGRA-ME框架
 	* 在65nm的工艺库下对4x4的CGRA给出了面积和延时数据,200M左右的频率
 
 框架的提出，只是介绍了框架包含的内容，实验只是验证了框架的可用性，即可以Map，生成的硬件是可以综合的，但是离SOC应该还有不少距离。
+
+## [Architecture Exploration of Standard-Cell and FPGA-Overlay CGRAs Using the Open-Source CGRA-ME Framework (ISPD 2018)](https://github.com/chaozhang2000/ARGC-learning/blob/main/paper/ispd003i-chinA.pdf)
+
+ISPD(International Symposium on Physical Design 国际物理设计研讨会)  
+这篇文章和2017年提出框架的文章大致相同，很多的内容是在重复  
+主要补充了CGRA-ME生成的CGRA的物理实现部分，用CGRA-ME生成4x4的ADRES架构的CGRA，并对其分别进行了集成电路(Standard-Cell)和FPGA(FPGA-Overlay)的物理实现，给出了一些面积频率的数据，虽然在17年的文章中也有一些Standard-Cell物理实现的内容，但本篇文章中内容更加丰富，且添加了FPGA-Overlay的内容。主要数据是FreePDK45 standard-cell library下频率150M左右，Altera Stratix IV FPGA上部署80M~100M左右。  
+其工作所谓的创新点在于，之前的框架工作没有物理实现部分，之前物理实现的部分也是脱离框架的，他们做了一个结合。
+
+
+## [An Architecture-Agnostic Integer Linear Programming Approach to CGRA Mapping (DAC 2018)](https://github.com/chaozhang2000/ARGC-learning/blob/main/paper/dac2018.pdf)
+
+这篇文章主要时Mapper算法的实现，暂时不太关注，主要是说提出了一种Mapper算法，并与模拟退火算法进行比较，发现其映射的效果更好，算是在Mapper算法上的探索。
+
+
